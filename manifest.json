@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Content to Notepad",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "tabs",
+      "scripting" 
+    ],
+    "background": {
+      "service_worker": "contentScript.js"
+    },
+  
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
